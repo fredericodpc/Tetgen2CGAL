@@ -1,4 +1,4 @@
-#include "Processor.h"
+//#include "Processor.h"
 
 #include <iostream>
 #include <fstream>
@@ -26,7 +26,7 @@ int main(int argc, char * argv[]){
 	// ******************************************************** //
 	
 	proc->read_mesh(meshFile);
-	proc->convert_Mesh();
+	proc->convert_mesh();
 	system("pause");
 	// ******************************************************** //
 
